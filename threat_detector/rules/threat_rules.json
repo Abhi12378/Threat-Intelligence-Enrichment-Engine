@@ -1,0 +1,60 @@
+{
+  "patterns": [
+    {
+      "keyword": "abcd",
+      "threat_type": "ransomware"
+    },
+    {
+      "keyword": "stealer",
+      "threat_type": "infostealer"
+    },
+    {
+      "ip_range": "8.8.8.",
+      "threat_type": "botnet"
+    },
+    {
+      "keyword": "ransom",
+      "threat_type": "ransomware"
+    },
+    {
+      "keyword": "payload",
+      "threat_type": "malware"
+    },
+    {
+      "keyword": "botnet",
+      "threat_type": "botnet"
+    },
+    {
+      "keyword": "xyzstealer",
+      "threat_type": "infostealer"
+    },
+    {
+      "keyword": "c2server",
+      "threat_type": "command-and-control"
+    },
+    {
+      "keyword": "emotet",
+      "threat_type": "trojan"
+    },
+    {
+      "keyword": "trickbot",
+      "threat_type": "trojan"
+    },
+    {
+      "keyword": "lockbit",
+      "threat_type": "ransomware"
+    },
+    {
+      "keyword": "phish",
+      "threat_type": "phishing"
+    },
+    {
+      "keyword": "malicious",
+      "threat_type": "malicious-domain"
+    },
+    {
+      "ip_range": "5.5.5.",
+      "threat_type": "command-and-control"
+    }
+  ]
+}

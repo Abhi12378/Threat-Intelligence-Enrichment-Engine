@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ioc-1001",
+    "value": "8.8.8.8",
+    "type": "ipv4-addr",
+    "source": "internal, public",
+    "threat_type": "botnet",
+    "confidence": 65,
+    "timestamp_utc": "2025-06-19T08:40:13.506506Z",
+    "timestamp_ist": "2025-06-19T14:10:13.506506+00:00"
+  },
+  {
+    "id": "ioc-1002",
+    "value": "abcd1234efgh5678",
+    "type": "file-hash",
+    "source": "MISP, public",
+    "threat_type": "ransomware",
+    "confidence": 50,
+    "timestamp_utc": "2025-06-19T08:40:13.532778Z",
+    "timestamp_ist": "2025-06-19T14:10:13.532778+00:00"
+  },
+  {
+    "id": "ioc-1003",
+    "value": "maliciousdomain.com",
+    "type": "domain-name",
+    "source": "public",
+    "threat_type": "malicious-domain",
+    "confidence": 15,
+    "timestamp_utc": "2025-06-19T08:40:13.532778Z",
+    "timestamp_ist": "2025-06-19T14:10:13.532778+00:00"
+  },
+  {
+    "id": "ioc-1004",
+    "value": "stealer-hub.com",
+    "type": "domain-name",
+    "source": "MISP",
+    "threat_type": "infostealer",
+    "confidence": 35,
+    "timestamp_utc": "2025-06-19T08:40:13.533803Z",
+    "timestamp_ist": "2025-06-19T14:10:13.533803+00:00"
+  },
+  {
+    "id": "ioc-1005",
+    "value": "1.2.3.4",
+    "type": "ipv4-addr",
+    "source": "unknown",
+    "threat_type": "unknown",
+    "confidence": 10,
+    "timestamp_utc": "2025-06-19T08:40:13.534760Z",
+    "timestamp_ist": "2025-06-19T14:10:13.534760+00:00"
+  },
+  {
+    "id": "ioc-1006",
+    "value": "xyzstealerpayload.com",
+    "type": "domain-name",
+    "source": "MISP",
+    "threat_type": "infostealer",
+    "confidence": 35,
+    "timestamp_utc": "2025-06-19T08:40:13.535801Z",
+    "timestamp_ist": "2025-06-19T14:10:13.535801+00:00"
+  },
+  {
+    "id": "ioc-1007",
+    "value": "abcd5678ijkl9012",
+    "type": "file-hash",
+    "source": "internal",
+    "threat_type": "ransomware",
+    "confidence": 60,
+    "timestamp_utc": "2025-06-19T08:40:13.535801Z",
+    "timestamp_ist": "2025-06-19T14:10:13.535801+00:00"
+  },
+  {
+    "id": "ioc-1008",
+    "value": "5.5.5.5",
+    "type": "ipv4-addr",
+    "source": "public",
+    "threat_type": "command-and-control",
+    "confidence": 15,
+    "timestamp_utc": "2025-06-19T08:40:13.537840Z",
+    "timestamp_ist": "2025-06-19T14:10:13.537840+00:00"
+  },
+  {
+    "id": "ioc-1009",
+    "value": "legitdomain.org",
+    "type": "domain-name",
+    "source": "public",
+    "threat_type": "unknown",
+    "confidence": 10,
+    "timestamp_utc": "2025-06-19T08:40:13.537840Z",
+    "timestamp_ist": "2025-06-19T14:10:13.537840+00:00"
+  },
+  {
+    "id": "ioc-1010",
+    "value": "1234abcd5678efgh",
+    "type": "file-hash",
+    "source": "public",
+    "threat_type": "ransomware",
+    "confidence": 20,
+    "timestamp_utc": "2025-06-19T08:40:13.538777Z",
+    "timestamp_ist": "2025-06-19T14:10:13.538777+00:00"
+  },
+  {
+    "id": "ioc-1011",
+    "value": "phishingsite.io",
+    "type": "domain-name",
+    "source": "MISP, public",
+    "threat_type": "phishing",
+    "confidence": 45,
+    "timestamp_utc": "2025-06-19T08:40:13.539759Z",
+    "timestamp_ist": "2025-06-19T14:10:13.539759+00:00"
+  },
+  {
+    "id": "ioc-1012",
+    "value": "badmail@phisher.net",
+    "type": "email-addr",
+    "source": "unknown",
+    "threat_type": "phishing",
+    "confidence": 10,
+    "timestamp_utc": "2025-06-19T08:40:13.539759Z",
+    "timestamp_ist": "2025-06-19T14:10:13.539759+00:00"
+  },
+  {
+    "id": "ioc-1013",
+    "value": "trojan-update-server.net",
+    "type": "domain-name",
+    "source": "MISP",
+    "threat_type": "unknown",
+    "confidence": 30,
+    "timestamp_utc": "2025-06-19T08:40:13.540770Z",
+    "timestamp_ist": "2025-06-19T14:10:13.540770+00:00"
+  },
+  {
+    "id": "ioc-1014",
+    "value": "c2.attacker.net",
+    "type": "domain-name",
+    "source": "MISP",
+    "threat_type": "unknown",
+    "confidence": 30,
+    "timestamp_utc": "2025-06-19T08:40:13.541808Z",
+    "timestamp_ist": "2025-06-19T14:10:13.541808+00:00"
+  },
+  {
+    "id": "ioc-1015",
+    "value": "fakebank-login.com",
+    "type": "domain-name",
+    "source": "public",
+    "threat_type": "unknown",
+    "confidence": 10,
+    "timestamp_utc": "2025-06-19T08:40:13.542765Z",
+    "timestamp_ist": "2025-06-19T14:10:13.542765+00:00"
+  },
+  {
+    "id": "ioc-1016",
+    "value": "5678mnop4321qrst",
+    "type": "file-hash",
+    "source": "MISP",
+    "threat_type": "unknown",
+    "confidence": 30,
+    "timestamp_utc": "2025-06-19T08:40:13.542765Z",
+    "timestamp_ist": "2025-06-19T14:10:13.542765+00:00"
+  },
+  {
+    "id": "ioc-1017",
+    "value": "anotherbadfile0987abcd",
+    "type": "file-hash",
+    "source": "MISP",
+    "threat_type": "ransomware",
+    "confidence": 40,
+    "timestamp_utc": "2025-06-19T08:40:13.543770Z",
+    "timestamp_ist": "2025-06-19T14:10:13.543770+00:00"
+  },
+  {
+    "id": "ioc-1018",
+    "value": "malware-download.com",
+    "type": "domain-name",
+    "source": "MISP",
+    "threat_type": "unknown",
+    "confidence": 30,
+    "timestamp_utc": "2025-06-19T08:40:13.543770Z",
+    "timestamp_ist": "2025-06-19T14:10:13.543770+00:00"
+  },
+  {
+    "id": "ioc-1019",
+    "value": "bot@infected.org",
+    "type": "email-addr",
+    "source": "internal, public",
+    "threat_type": "unknown",
+    "confidence": 60,
+    "timestamp_utc": "2025-06-19T08:40:13.544817Z",
+    "timestamp_ist": "2025-06-19T14:10:13.544817+00:00"
+  },
+  {
+    "id": "ioc-1020",
+    "value": "6.6.6.6",
+    "type": "ipv4-addr",
+    "source": "public",
+    "threat_type": "unknown",
+    "confidence": 10,
+    "timestamp_utc": "2025-06-19T08:40:13.545801Z",
+    "timestamp_ist": "2025-06-19T14:10:13.545801+00:00"
+  }
+]
