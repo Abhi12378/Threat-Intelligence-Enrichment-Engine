@@ -80,17 +80,6 @@ pytest --cov=src tests/ --cov-report=html
         JSON error handling
         File not found and value error edge cases
 
-  4)  📊 Sample IOC Enrichment Output:
-
-{
-  "value": "stealer-domain.com",
-  "type": "domain-name",
-  "threat_type": "infostealer",
-  "source": "public",
-  "confidence": 60,
-  "timestamp": "2025-06-17T08:00:00Z"
-}
-
 📝 Notes:
 
 1) The engine defaults unknown values gracefully (e.g., empty input or unmatched rules).
