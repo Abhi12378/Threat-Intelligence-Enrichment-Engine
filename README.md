@@ -58,12 +58,14 @@ Given a collection of threat IOCs and a set of rules/feeds:
    venv\Scripts\activate   # On Windows
 
 
-Run Tests:
-pytest threat_enricher/tests/ -v
+4. Run Tests:
+   ```bash
+   pytest threat_enricher/tests/ -v
 
-Generate HTML Coverage Report:
-pytest --cov=enrich --cov-report=html threat_enricher/tests/
-pytest --cov=src tests/ --cov-report=html
+5. Generate HTML Coverage Report:
+   ```bash
+   pytest --cov=enrich --cov-report=html threat_enricher/tests/
+   pytest --cov=src tests/ --cov-report=html
 
 🧪 Testing:
 
