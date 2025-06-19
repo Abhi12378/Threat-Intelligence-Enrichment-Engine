@@ -1,0 +1,651 @@
+2025-06-17 08:33:37,270 - INFO - Application started.
+2025-06-17 08:33:37,270 - DEBUG - Loaded internal.txt with 2 IOCs.
+2025-06-17 08:33:37,271 - DEBUG - Loaded misp_feed.json with 3 IOCs.
+2025-06-17 08:33:37,271 - DEBUG - Loaded osint.csv with 4 IOCs.
+2025-06-17 08:33:37,271 - INFO - Processing IOC: 8.8.8.8
+2025-06-17 08:33:37,272 - INFO -  - Found in: internal, osint
+2025-06-17 08:33:37,272 - INFO -  - Threat Type: botnet
+2025-06-17 08:33:37,272 - INFO -  - Confidence Score: 100
+2025-06-17 08:33:37,272 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-17 08:33:37,272 - INFO -  - Found in: MISP, osint
+2025-06-17 08:33:37,272 - INFO -  - Threat Type: ransomware
+2025-06-17 08:33:37,272 - INFO -  - Confidence Score: 80
+2025-06-17 08:33:37,272 - WARNING - IOC not found in any feed: 1.2.3.4
+2025-06-17 08:33:37,273 - INFO - Application finished.
+2025-06-17 14:47:02,587 - INFO - Processing IOC: 8.8.8.8
+2025-06-17 14:47:02,589 - INFO -  - Found in: internal, public
+2025-06-17 14:47:02,589 - INFO -  - Threat Type: botnet
+2025-06-17 14:47:02,589 - INFO -  - Confidence Score: 100
+2025-06-17 14:47:02,589 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-17 14:47:02,589 - INFO -  - Found in: MISP, public
+2025-06-17 14:47:02,589 - INFO -  - Threat Type: ransomware
+2025-06-17 14:47:02,589 - INFO -  - Confidence Score: 60
+2025-06-17 14:47:02,589 - INFO - Processing IOC: maliciousdomain.com
+2025-06-17 14:47:02,589 - INFO -  - Found in: public
+2025-06-17 14:47:02,589 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:02,589 - INFO -  - Confidence Score: 20
+2025-06-17 14:47:02,589 - INFO - Processing IOC: stealer-hub.com
+2025-06-17 14:47:02,589 - INFO -  - Found in: MISP
+2025-06-17 14:47:02,589 - INFO -  - Threat Type: infostealer
+2025-06-17 14:47:02,589 - INFO -  - Confidence Score: 40
+2025-06-17 14:47:02,589 - INFO - Processing IOC: 1.2.3.4
+2025-06-17 14:47:02,589 - INFO -  - Found in: None
+2025-06-17 14:47:02,589 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:02,589 - INFO -  - Confidence Score: 0
+2025-06-17 14:47:02,589 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-17 14:47:02,589 - INFO -  - Found in: MISP
+2025-06-17 14:47:02,590 - INFO -  - Threat Type: infostealer
+2025-06-17 14:47:02,590 - INFO -  - Confidence Score: 40
+2025-06-17 14:47:02,590 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-17 14:47:02,590 - INFO -  - Found in: internal
+2025-06-17 14:47:02,590 - INFO -  - Threat Type: ransomware
+2025-06-17 14:47:02,590 - INFO -  - Confidence Score: 80
+2025-06-17 14:47:02,590 - INFO - Processing IOC: 5.5.5.5
+2025-06-17 14:47:02,590 - INFO -  - Found in: None
+2025-06-17 14:47:02,590 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:02,590 - INFO -  - Confidence Score: 0
+2025-06-17 14:47:02,590 - INFO - Processing IOC: legitdomain.org
+2025-06-17 14:47:02,590 - INFO -  - Found in: None
+2025-06-17 14:47:02,590 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:02,590 - INFO -  - Confidence Score: 0
+2025-06-17 14:47:02,590 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-17 14:47:02,590 - INFO -  - Found in: public
+2025-06-17 14:47:02,590 - INFO -  - Threat Type: ransomware
+2025-06-17 14:47:02,590 - INFO -  - Confidence Score: 40
+2025-06-17 14:47:02,591 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_enricher\outputs\enriched_iocs.json
+2025-06-17 14:47:02,591 - INFO - Application finished.
+2025-06-17 14:47:38,103 - INFO - Processing IOC: 8.8.8.8
+2025-06-17 14:47:38,103 - INFO -  - Found in: internal, public
+2025-06-17 14:47:38,103 - INFO -  - Threat Type: botnet
+2025-06-17 14:47:38,103 - INFO -  - Confidence Score: 100
+2025-06-17 14:47:38,103 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-17 14:47:38,103 - INFO -  - Found in: MISP, public
+2025-06-17 14:47:38,103 - INFO -  - Threat Type: ransomware
+2025-06-17 14:47:38,103 - INFO -  - Confidence Score: 60
+2025-06-17 14:47:38,103 - INFO - Processing IOC: maliciousdomain.com
+2025-06-17 14:47:38,103 - INFO -  - Found in: public
+2025-06-17 14:47:38,103 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:38,103 - INFO -  - Confidence Score: 20
+2025-06-17 14:47:38,103 - INFO - Processing IOC: stealer-hub.com
+2025-06-17 14:47:38,103 - INFO -  - Found in: MISP
+2025-06-17 14:47:38,103 - INFO -  - Threat Type: infostealer
+2025-06-17 14:47:38,103 - INFO -  - Confidence Score: 40
+2025-06-17 14:47:38,103 - INFO - Processing IOC: 1.2.3.4
+2025-06-17 14:47:38,104 - INFO -  - Found in: None
+2025-06-17 14:47:38,104 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:38,104 - INFO -  - Confidence Score: 0
+2025-06-17 14:47:38,104 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-17 14:47:38,104 - INFO -  - Found in: MISP
+2025-06-17 14:47:38,104 - INFO -  - Threat Type: infostealer
+2025-06-17 14:47:38,104 - INFO -  - Confidence Score: 40
+2025-06-17 14:47:38,104 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-17 14:47:38,104 - INFO -  - Found in: internal
+2025-06-17 14:47:38,104 - INFO -  - Threat Type: ransomware
+2025-06-17 14:47:38,104 - INFO -  - Confidence Score: 80
+2025-06-17 14:47:38,104 - INFO - Processing IOC: 5.5.5.5
+2025-06-17 14:47:38,104 - INFO -  - Found in: None
+2025-06-17 14:47:38,104 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:38,104 - INFO -  - Confidence Score: 0
+2025-06-17 14:47:38,104 - INFO - Processing IOC: legitdomain.org
+2025-06-17 14:47:38,104 - INFO -  - Found in: None
+2025-06-17 14:47:38,104 - INFO -  - Threat Type: unknown
+2025-06-17 14:47:38,104 - INFO -  - Confidence Score: 0
+2025-06-17 14:47:38,104 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-17 14:47:38,104 - INFO -  - Found in: public
+2025-06-17 14:47:38,104 - INFO -  - Threat Type: ransomware
+2025-06-17 14:47:38,104 - INFO -  - Confidence Score: 40
+2025-06-17 14:47:38,105 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_enricher\outputs\enriched_iocs.json
+2025-06-17 14:47:38,105 - INFO - Application finished.
+2025-06-17 14:48:05,856 - INFO - Processing IOC: 8.8.8.8
+2025-06-17 14:48:05,856 - INFO -  - Found in: internal, public
+2025-06-17 14:48:05,856 - INFO -  - Threat Type: botnet
+2025-06-17 14:48:05,856 - INFO -  - Confidence Score: 100
+2025-06-17 14:48:05,856 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-17 14:48:05,856 - INFO -  - Found in: MISP, public
+2025-06-17 14:48:05,856 - INFO -  - Threat Type: ransomware
+2025-06-17 14:48:05,856 - INFO -  - Confidence Score: 60
+2025-06-17 14:48:05,856 - INFO - Processing IOC: maliciousdomain.com
+2025-06-17 14:48:05,856 - INFO -  - Found in: public
+2025-06-17 14:48:05,856 - INFO -  - Threat Type: unknown
+2025-06-17 14:48:05,856 - INFO -  - Confidence Score: 20
+2025-06-17 14:48:05,856 - INFO - Processing IOC: stealer-hub.com
+2025-06-17 14:48:05,856 - INFO -  - Found in: MISP
+2025-06-17 14:48:05,856 - INFO -  - Threat Type: infostealer
+2025-06-17 14:48:05,856 - INFO -  - Confidence Score: 40
+2025-06-17 14:48:05,856 - INFO - Processing IOC: 1.2.3.4
+2025-06-17 14:48:05,856 - INFO -  - Found in: None
+2025-06-17 14:48:05,856 - INFO -  - Threat Type: unknown
+2025-06-17 14:48:05,857 - INFO -  - Confidence Score: 0
+2025-06-17 14:48:05,857 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-17 14:48:05,857 - INFO -  - Found in: MISP
+2025-06-17 14:48:05,857 - INFO -  - Threat Type: infostealer
+2025-06-17 14:48:05,857 - INFO -  - Confidence Score: 40
+2025-06-17 14:48:05,857 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-17 14:48:05,857 - INFO -  - Found in: internal
+2025-06-17 14:48:05,857 - INFO -  - Threat Type: ransomware
+2025-06-17 14:48:05,857 - INFO -  - Confidence Score: 80
+2025-06-17 14:48:05,857 - INFO - Processing IOC: 5.5.5.5
+2025-06-17 14:48:05,857 - INFO -  - Found in: None
+2025-06-17 14:48:05,857 - INFO -  - Threat Type: unknown
+2025-06-17 14:48:05,857 - INFO -  - Confidence Score: 0
+2025-06-17 14:48:05,857 - INFO - Processing IOC: legitdomain.org
+2025-06-17 14:48:05,857 - INFO -  - Found in: None
+2025-06-17 14:48:05,857 - INFO -  - Threat Type: unknown
+2025-06-17 14:48:05,857 - INFO -  - Confidence Score: 0
+2025-06-17 14:48:05,857 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-17 14:48:05,857 - INFO -  - Found in: public
+2025-06-17 14:48:05,857 - INFO -  - Threat Type: ransomware
+2025-06-17 14:48:05,857 - INFO -  - Confidence Score: 40
+2025-06-17 14:48:05,858 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_enricher\outputs\enriched_iocs.json
+2025-06-17 14:48:05,858 - INFO - Application finished.
+2025-06-17 15:23:31,766 - INFO - Processing IOC: 8.8.8.8
+2025-06-17 15:23:31,766 - INFO -  - Found in: internal, public
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: botnet
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 100
+2025-06-17 15:23:31,766 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-17 15:23:31,766 - INFO -  - Found in: MISP, public
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: ransomware
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 60
+2025-06-17 15:23:31,766 - INFO - Processing IOC: maliciousdomain.com
+2025-06-17 15:23:31,766 - INFO -  - Found in: public
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: unknown
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 20
+2025-06-17 15:23:31,766 - INFO - Processing IOC: stealer-hub.com
+2025-06-17 15:23:31,766 - INFO -  - Found in: MISP
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: infostealer
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 40
+2025-06-17 15:23:31,766 - INFO - Processing IOC: 1.2.3.4
+2025-06-17 15:23:31,766 - INFO -  - Found in: None
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: unknown
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 0
+2025-06-17 15:23:31,766 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-17 15:23:31,766 - INFO -  - Found in: MISP
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: infostealer
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 40
+2025-06-17 15:23:31,766 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-17 15:23:31,766 - INFO -  - Found in: internal
+2025-06-17 15:23:31,766 - INFO -  - Threat Type: ransomware
+2025-06-17 15:23:31,766 - INFO -  - Confidence Score: 80
+2025-06-17 15:23:31,766 - INFO - Processing IOC: 5.5.5.5
+2025-06-17 15:23:31,766 - INFO -  - Found in: None
+2025-06-17 15:23:31,767 - INFO -  - Threat Type: unknown
+2025-06-17 15:23:31,767 - INFO -  - Confidence Score: 0
+2025-06-17 15:23:31,767 - INFO - Processing IOC: legitdomain.org
+2025-06-17 15:23:31,767 - INFO -  - Found in: None
+2025-06-17 15:23:31,767 - INFO -  - Threat Type: unknown
+2025-06-17 15:23:31,767 - INFO -  - Confidence Score: 0
+2025-06-17 15:23:31,767 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-17 15:23:31,767 - INFO -  - Found in: public
+2025-06-17 15:23:31,767 - INFO -  - Threat Type: ransomware
+2025-06-17 15:23:31,767 - INFO -  - Confidence Score: 40
+2025-06-17 15:23:31,768 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_enricher\outputs\enriched_iocs.json
+2025-06-17 15:23:31,768 - INFO - Application finished.
+2025-06-19 10:38:02,217 - INFO - Processing IOC: 8.8.8.8
+2025-06-19 10:38:02,217 - INFO -  - Found in: internal, public
+2025-06-19 10:38:02,217 - INFO -  - Threat Type: botnet
+2025-06-19 10:38:02,217 - INFO -  - Confidence Score: 100
+2025-06-19 10:38:02,217 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-19 10:38:02,217 - INFO -  - Found in: MISP, public
+2025-06-19 10:38:02,217 - INFO -  - Threat Type: ransomware
+2025-06-19 10:38:02,217 - INFO -  - Confidence Score: 60
+2025-06-19 10:38:02,217 - INFO - Processing IOC: maliciousdomain.com
+2025-06-19 10:38:02,217 - INFO -  - Found in: public
+2025-06-19 10:38:02,217 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:02,217 - INFO -  - Confidence Score: 20
+2025-06-19 10:38:02,217 - INFO - Processing IOC: stealer-hub.com
+2025-06-19 10:38:02,217 - INFO -  - Found in: MISP
+2025-06-19 10:38:02,217 - INFO -  - Threat Type: infostealer
+2025-06-19 10:38:02,217 - INFO -  - Confidence Score: 40
+2025-06-19 10:38:02,217 - INFO - Processing IOC: 1.2.3.4
+2025-06-19 10:38:02,218 - INFO -  - Found in: None
+2025-06-19 10:38:02,218 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:02,218 - INFO -  - Confidence Score: 0
+2025-06-19 10:38:02,218 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-19 10:38:02,218 - INFO -  - Found in: MISP
+2025-06-19 10:38:02,218 - INFO -  - Threat Type: infostealer
+2025-06-19 10:38:02,218 - INFO -  - Confidence Score: 40
+2025-06-19 10:38:02,218 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-19 10:38:02,218 - INFO -  - Found in: internal
+2025-06-19 10:38:02,218 - INFO -  - Threat Type: ransomware
+2025-06-19 10:38:02,218 - INFO -  - Confidence Score: 80
+2025-06-19 10:38:02,218 - INFO - Processing IOC: 5.5.5.5
+2025-06-19 10:38:02,218 - INFO -  - Found in: None
+2025-06-19 10:38:02,218 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:02,218 - INFO -  - Confidence Score: 0
+2025-06-19 10:38:02,218 - INFO - Processing IOC: legitdomain.org
+2025-06-19 10:38:02,218 - INFO -  - Found in: None
+2025-06-19 10:38:02,218 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:02,218 - INFO -  - Confidence Score: 0
+2025-06-19 10:38:02,218 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-19 10:38:02,218 - INFO -  - Found in: public
+2025-06-19 10:38:02,218 - INFO -  - Threat Type: ransomware
+2025-06-19 10:38:02,218 - INFO -  - Confidence Score: 40
+2025-06-19 10:38:02,219 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_enricher\outputs\enriched_iocs.json
+2025-06-19 10:38:02,219 - INFO - Application finished.
+2025-06-19 10:38:15,486 - INFO - Processing IOC: 8.8.8.8
+2025-06-19 10:38:15,486 - INFO -  - Found in: internal, public
+2025-06-19 10:38:15,486 - INFO -  - Threat Type: botnet
+2025-06-19 10:38:15,486 - INFO -  - Confidence Score: 100
+2025-06-19 10:38:15,486 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-19 10:38:15,486 - INFO -  - Found in: MISP, public
+2025-06-19 10:38:15,486 - INFO -  - Threat Type: ransomware
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 60
+2025-06-19 10:38:15,487 - INFO - Processing IOC: maliciousdomain.com
+2025-06-19 10:38:15,487 - INFO -  - Found in: public
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 20
+2025-06-19 10:38:15,487 - INFO - Processing IOC: stealer-hub.com
+2025-06-19 10:38:15,487 - INFO -  - Found in: MISP
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: infostealer
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 40
+2025-06-19 10:38:15,487 - INFO - Processing IOC: 1.2.3.4
+2025-06-19 10:38:15,487 - INFO -  - Found in: None
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 0
+2025-06-19 10:38:15,487 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-19 10:38:15,487 - INFO -  - Found in: MISP
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: infostealer
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 40
+2025-06-19 10:38:15,487 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-19 10:38:15,487 - INFO -  - Found in: internal
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: ransomware
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 80
+2025-06-19 10:38:15,487 - INFO - Processing IOC: 5.5.5.5
+2025-06-19 10:38:15,487 - INFO -  - Found in: None
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 0
+2025-06-19 10:38:15,487 - INFO - Processing IOC: legitdomain.org
+2025-06-19 10:38:15,487 - INFO -  - Found in: None
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: unknown
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 0
+2025-06-19 10:38:15,487 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-19 10:38:15,487 - INFO -  - Found in: public
+2025-06-19 10:38:15,487 - INFO -  - Threat Type: ransomware
+2025-06-19 10:38:15,487 - INFO -  - Confidence Score: 40
+2025-06-19 10:38:15,488 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_enricher\outputs\enriched_iocs.json
+2025-06-19 10:38:15,488 - INFO - Application finished.
+2025-06-19 10:46:59,319 - INFO - Processing IOC: 8.8.8.8
+2025-06-19 10:48:41,495 - INFO - Processing IOC: 8.8.8.8
+2025-06-19 10:49:41,137 - INFO - Processing IOC: 8.8.8.8
+2025-06-19 10:49:41,161 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,161 - INFO -  - Found in: internal, public
+2025-06-19 10:49:41,161 - INFO -  - Threat Type: botnet
+2025-06-19 10:49:41,161 - INFO -  - Confidence Score: 100
+2025-06-19 10:49:41,161 - INFO - Processing IOC: abcd1234efgh5678
+2025-06-19 10:49:41,162 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,162 - INFO -  - Found in: MISP, public
+2025-06-19 10:49:41,162 - INFO -  - Threat Type: ransomware
+2025-06-19 10:49:41,162 - INFO -  - Confidence Score: 60
+2025-06-19 10:49:41,162 - INFO - Processing IOC: maliciousdomain.com
+2025-06-19 10:49:41,162 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,162 - INFO -  - Found in: public
+2025-06-19 10:49:41,162 - INFO -  - Threat Type: unknown
+2025-06-19 10:49:41,162 - INFO -  - Confidence Score: 20
+2025-06-19 10:49:41,163 - INFO - Processing IOC: stealer-hub.com
+2025-06-19 10:49:41,163 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,163 - INFO -  - Found in: MISP
+2025-06-19 10:49:41,163 - INFO -  - Threat Type: infostealer
+2025-06-19 10:49:41,163 - INFO -  - Confidence Score: 40
+2025-06-19 10:49:41,163 - INFO - Processing IOC: 1.2.3.4
+2025-06-19 10:49:41,164 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,164 - INFO -  - Found in: None
+2025-06-19 10:49:41,164 - INFO -  - Threat Type: unknown
+2025-06-19 10:49:41,164 - INFO -  - Confidence Score: 0
+2025-06-19 10:49:41,164 - INFO - Processing IOC: xyzstealerpayload.com
+2025-06-19 10:49:41,165 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,165 - INFO -  - Found in: MISP
+2025-06-19 10:49:41,165 - INFO -  - Threat Type: infostealer
+2025-06-19 10:49:41,165 - INFO -  - Confidence Score: 40
+2025-06-19 10:49:41,165 - INFO - Processing IOC: abcd5678ijkl9012
+2025-06-19 10:49:41,166 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,166 - INFO -  - Found in: internal
+2025-06-19 10:49:41,166 - INFO -  - Threat Type: ransomware
+2025-06-19 10:49:41,166 - INFO -  - Confidence Score: 80
+2025-06-19 10:49:41,166 - INFO - Processing IOC: 5.5.5.5
+2025-06-19 10:49:41,166 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,166 - INFO -  - Found in: None
+2025-06-19 10:49:41,166 - INFO -  - Threat Type: unknown
+2025-06-19 10:49:41,166 - INFO -  - Confidence Score: 0
+2025-06-19 10:49:41,166 - INFO - Processing IOC: legitdomain.org
+2025-06-19 10:49:41,167 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,167 - INFO -  - Found in: None
+2025-06-19 10:49:41,167 - INFO -  - Threat Type: unknown
+2025-06-19 10:49:41,167 - INFO -  - Confidence Score: 0
+2025-06-19 10:49:41,167 - INFO - Processing IOC: 1234abcd5678efgh
+2025-06-19 10:49:41,168 - WARNING - ZoneInfo failed, falling back to manual IST offset: 'No time zone found with key Asia/Kolkata'
+2025-06-19 10:49:41,168 - INFO -  - Found in: public
+2025-06-19 10:49:41,168 - INFO -  - Threat Type: ransomware
+2025-06-19 10:49:41,168 - INFO -  - Confidence Score: 40
+2025-06-19 10:49:41,169 - INFO - Output written to: C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 10:49:41,169 - INFO - Application finished.
+2025-06-19 11:00:56,276 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,276 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:00:56,277 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,278 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:00:56,278 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,278 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 11:00:56,279 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,279 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:00:56,279 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,279 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:00:56,280 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,280 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:00:56,281 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,281 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:00:56,281 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,281 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:00:56,282 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,282 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 0
+2025-06-19 11:00:56,282 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:00:56,282 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:00:56,283 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:00:56,283 - INFO - IOC enrichment complete.
+2025-06-19 11:01:15,927 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,928 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:01:15,929 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,929 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:01:15,931 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,931 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 11:01:15,932 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,932 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:01:15,932 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,933 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:01:15,933 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,933 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:01:15,934 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,934 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:01:15,935 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,935 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:01:15,935 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,935 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 0
+2025-06-19 11:01:15,936 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:01:15,936 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:01:15,937 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:01:15,937 - INFO - IOC enrichment complete.
+2025-06-19 11:03:35,996 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:35,997 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:03:35,998 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:35,998 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:03:35,999 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:35,999 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 11:03:36,000 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,000 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:03:36,000 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,000 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:03:36,001 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,001 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:03:36,002 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,002 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:03:36,002 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,002 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:03:36,003 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,003 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 0
+2025-06-19 11:03:36,003 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:03:36,003 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:03:36,004 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:03:36,004 - INFO - IOC enrichment complete.
+2025-06-19 11:04:17,817 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,818 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:04:17,819 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,819 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:04:17,819 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,819 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 11:04:17,820 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,820 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:04:17,820 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,820 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:04:17,821 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,821 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:04:17,821 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,822 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:04:17,822 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,822 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:04:17,823 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,823 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 0
+2025-06-19 11:04:17,823 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:04:17,823 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:04:17,824 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:04:17,824 - INFO - IOC enrichment complete.
+2025-06-19 11:05:51,773 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,773 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:05:51,774 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,774 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:05:51,775 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,775 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:05:51,776 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,776 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:05:51,776 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,776 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 0
+2025-06-19 11:05:51,777 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,777 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:05:51,778 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,778 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:05:51,778 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,778 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 5
+2025-06-19 11:05:51,779 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,779 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 0
+2025-06-19 11:05:51,780 - WARNING - ZoneInfo fallback used: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:05:51,780 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:05:51,781 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:05:51,781 - INFO - IOC enrichment complete.
+2025-06-19 11:09:00,986 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,986 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:09:00,987 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,987 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:09:00,988 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,988 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:09:00,989 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,989 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:09:00,990 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,991 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 11:09:00,991 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,991 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:09:00,992 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,992 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:09:00,993 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,993 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 10
+2025-06-19 11:09:00,994 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,994 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: malicious-domain | Confidence: 10
+2025-06-19 11:09:00,995 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:00,995 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:09:00,996 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:09:00,996 - INFO - IOC enrichment complete.
+2025-06-19 11:09:13,906 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,907 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:09:13,908 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,908 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:09:13,908 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,909 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:09:13,909 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,909 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:09:13,910 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,910 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 11:09:13,910 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,910 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:09:13,911 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,911 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:09:13,912 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,912 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 10
+2025-06-19 11:09:13,912 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,912 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: malicious-domain | Confidence: 10
+2025-06-19 11:09:13,913 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:09:13,913 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:09:13,914 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:09:13,914 - INFO - IOC enrichment complete.
+2025-06-19 11:13:12,145 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,145 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:13:12,146 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,147 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:13:12,147 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,147 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:13:12,148 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,148 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:13:12,148 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,149 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 11:13:12,149 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,149 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:13:12,150 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,150 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:13:12,150 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,150 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 15
+2025-06-19 11:13:12,151 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,151 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:13:12,152 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,152 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:13:12,152 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,152 - INFO - Processed IOC: phishingsite.io | Type: domain-name | Threat: phishing | Confidence: 45
+2025-06-19 11:13:12,153 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,153 - INFO - Processed IOC: badmail@phisher.net | Type: email-addr | Threat: phishing | Confidence: 10
+2025-06-19 11:13:12,153 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,154 - INFO - Processed IOC: trojan-update-server.net | Type: domain-name | Threat: malicious-domain | Confidence: 35
+2025-06-19 11:13:12,154 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,154 - INFO - Processed IOC: c2.attacker.net | Type: domain-name | Threat: malicious-domain | Confidence: 35
+2025-06-19 11:13:12,155 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,155 - INFO - Processed IOC: fakebank-login.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:13:12,155 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,155 - INFO - Processed IOC: 5678mnop4321qrst | Type: file-hash | Threat: unknown | Confidence: 30
+2025-06-19 11:13:12,156 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,156 - INFO - Processed IOC: anotherbadfile0987abcd | Type: file-hash | Threat: ransomware | Confidence: 40
+2025-06-19 11:13:12,157 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,157 - INFO - Processed IOC: malware-download.com | Type: domain-name | Threat: malicious-domain | Confidence: 35
+2025-06-19 11:13:12,158 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,158 - INFO - Processed IOC: bot@infected.org | Type: email-addr | Threat: unknown | Confidence: 60
+2025-06-19 11:13:12,158 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:13:12,158 - INFO - Processed IOC: 6.6.6.6 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 11:13:12,159 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:13:12,159 - INFO - IOC enrichment complete.
+2025-06-19 11:15:45,090 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,090 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 11:15:45,092 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,092 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 11:15:45,092 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,092 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:15:45,094 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,094 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:15:45,094 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,094 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 11:15:45,095 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,095 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 11:15:45,095 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,095 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 11:15:45,096 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,096 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 15
+2025-06-19 11:15:45,096 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,096 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:15:45,097 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,097 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 11:15:45,097 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,097 - INFO - Processed IOC: phishingsite.io | Type: domain-name | Threat: phishing | Confidence: 45
+2025-06-19 11:15:45,098 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,098 - INFO - Processed IOC: badmail@phisher.net | Type: email-addr | Threat: phishing | Confidence: 10
+2025-06-19 11:15:45,098 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,098 - INFO - Processed IOC: trojan-update-server.net | Type: domain-name | Threat: malicious-domain | Confidence: 35
+2025-06-19 11:15:45,099 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,099 - INFO - Processed IOC: c2.attacker.net | Type: domain-name | Threat: malicious-domain | Confidence: 35
+2025-06-19 11:15:45,099 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,100 - INFO - Processed IOC: fakebank-login.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 11:15:45,100 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,100 - INFO - Processed IOC: 5678mnop4321qrst | Type: file-hash | Threat: unknown | Confidence: 30
+2025-06-19 11:15:45,101 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,101 - INFO - Processed IOC: anotherbadfile0987abcd | Type: file-hash | Threat: ransomware | Confidence: 40
+2025-06-19 11:15:45,101 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,101 - INFO - Processed IOC: malware-download.com | Type: domain-name | Threat: malicious-domain | Confidence: 35
+2025-06-19 11:15:45,102 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,102 - INFO - Processed IOC: bot@infected.org | Type: email-addr | Threat: unknown | Confidence: 60
+2025-06-19 11:15:45,102 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 11:15:45,102 - INFO - Processed IOC: 6.6.6.6 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 11:15:45,102 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 11:15:45,102 - INFO - IOC enrichment complete.
+2025-06-19 12:04:39,469 - INFO - Processed IOC: 192.168.1.1 | Type: ipv4-addr | Threat: malware | Confidence: 55
+2025-06-19 12:04:39,472 - INFO - Processed IOC: user@example.com | Type: email-addr | Threat: phishing | Confidence: 15
+2025-06-19 12:04:39,473 - INFO - Enriched IOCs written to output.json
+2025-06-19 12:07:06,477 - INFO - Processed IOC: 192.168.1.1 | Type: ipv4-addr | Threat: malware | Confidence: 55
+2025-06-19 12:07:06,480 - INFO - Processed IOC: user@example.com | Type: email-addr | Threat: phishing | Confidence: 15
+2025-06-19 12:07:06,480 - INFO - Enriched IOCs written to output.json
+2025-06-19 12:11:16,977 - INFO - Processed IOC: 192.168.1.1 | Type: ipv4-addr | Threat: malware | Confidence: 55
+2025-06-19 12:11:16,979 - INFO - Processed IOC: user@example.com | Type: email-addr | Threat: phishing | Confidence: 15
+2025-06-19 12:11:16,980 - INFO - Enriched IOCs written to output.json
+2025-06-19 14:10:02,177 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,177 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 14:10:02,178 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,178 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 14:10:02,180 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,180 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 14:10:02,181 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,181 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 14:10:02,182 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,182 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 14:10:02,183 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,183 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 14:10:02,183 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,184 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 14:10:02,184 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,184 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 15
+2025-06-19 14:10:02,185 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,185 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 14:10:02,186 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,186 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 14:10:02,187 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,187 - INFO - Processed IOC: phishingsite.io | Type: domain-name | Threat: phishing | Confidence: 45
+2025-06-19 14:10:02,187 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,187 - INFO - Processed IOC: badmail@phisher.net | Type: email-addr | Threat: phishing | Confidence: 10
+2025-06-19 14:10:02,188 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,188 - INFO - Processed IOC: trojan-update-server.net | Type: domain-name | Threat: unknown | Confidence: 30
+2025-06-19 14:10:02,189 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,189 - INFO - Processed IOC: c2.attacker.net | Type: domain-name | Threat: unknown | Confidence: 30
+2025-06-19 14:10:02,190 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,190 - INFO - Processed IOC: fakebank-login.com | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 14:10:02,190 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,191 - INFO - Processed IOC: 5678mnop4321qrst | Type: file-hash | Threat: unknown | Confidence: 30
+2025-06-19 14:10:02,191 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,191 - INFO - Processed IOC: anotherbadfile0987abcd | Type: file-hash | Threat: ransomware | Confidence: 40
+2025-06-19 14:10:02,192 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,192 - INFO - Processed IOC: malware-download.com | Type: domain-name | Threat: unknown | Confidence: 30
+2025-06-19 14:10:02,193 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,194 - INFO - Processed IOC: bot@infected.org | Type: email-addr | Threat: unknown | Confidence: 60
+2025-06-19 14:10:02,194 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:02,194 - INFO - Processed IOC: 6.6.6.6 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 14:10:02,196 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 14:10:02,196 - INFO - IOC enrichment complete.
+2025-06-19 14:10:13,531 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,531 - INFO - Processed IOC: 8.8.8.8 | Type: ipv4-addr | Threat: botnet | Confidence: 65
+2025-06-19 14:10:13,532 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,532 - INFO - Processed IOC: abcd1234efgh5678 | Type: file-hash | Threat: ransomware | Confidence: 50
+2025-06-19 14:10:13,533 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,533 - INFO - Processed IOC: maliciousdomain.com | Type: domain-name | Threat: malicious-domain | Confidence: 15
+2025-06-19 14:10:13,534 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,534 - INFO - Processed IOC: stealer-hub.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 14:10:13,534 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,534 - INFO - Processed IOC: 1.2.3.4 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 14:10:13,535 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,535 - INFO - Processed IOC: xyzstealerpayload.com | Type: domain-name | Threat: infostealer | Confidence: 35
+2025-06-19 14:10:13,536 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,536 - INFO - Processed IOC: abcd5678ijkl9012 | Type: file-hash | Threat: ransomware | Confidence: 60
+2025-06-19 14:10:13,537 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,537 - INFO - Processed IOC: 5.5.5.5 | Type: ipv4-addr | Threat: command-and-control | Confidence: 15
+2025-06-19 14:10:13,538 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,538 - INFO - Processed IOC: legitdomain.org | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 14:10:13,539 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,539 - INFO - Processed IOC: 1234abcd5678efgh | Type: file-hash | Threat: ransomware | Confidence: 20
+2025-06-19 14:10:13,539 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,539 - INFO - Processed IOC: phishingsite.io | Type: domain-name | Threat: phishing | Confidence: 45
+2025-06-19 14:10:13,540 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,540 - INFO - Processed IOC: badmail@phisher.net | Type: email-addr | Threat: phishing | Confidence: 10
+2025-06-19 14:10:13,541 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,541 - INFO - Processed IOC: trojan-update-server.net | Type: domain-name | Threat: unknown | Confidence: 30
+2025-06-19 14:10:13,541 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,542 - INFO - Processed IOC: c2.attacker.net | Type: domain-name | Threat: unknown | Confidence: 30
+2025-06-19 14:10:13,542 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,542 - INFO - Processed IOC: fakebank-login.com | Type: domain-name | Threat: unknown | Confidence: 10
+2025-06-19 14:10:13,543 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,543 - INFO - Processed IOC: 5678mnop4321qrst | Type: file-hash | Threat: unknown | Confidence: 30
+2025-06-19 14:10:13,543 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,543 - INFO - Processed IOC: anotherbadfile0987abcd | Type: file-hash | Threat: ransomware | Confidence: 40
+2025-06-19 14:10:13,544 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,544 - INFO - Processed IOC: malware-download.com | Type: domain-name | Threat: unknown | Confidence: 30
+2025-06-19 14:10:13,545 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,545 - INFO - Processed IOC: bot@infected.org | Type: email-addr | Threat: unknown | Confidence: 60
+2025-06-19 14:10:13,545 - WARNING - ZoneInfo not available, using timedelta fallback: 'No time zone found with key Asia/Kolkata'
+2025-06-19 14:10:13,545 - INFO - Processed IOC: 6.6.6.6 | Type: ipv4-addr | Threat: unknown | Confidence: 10
+2025-06-19 14:10:13,546 - INFO - Enriched IOCs written to C:\Users\abhih\Desktop\Metron_Security\threat_detector\outputs\enriched_iocs.json
+2025-06-19 14:10:13,547 - INFO - IOC enrichment complete.
