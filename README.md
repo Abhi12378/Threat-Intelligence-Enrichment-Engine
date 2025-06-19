@@ -29,36 +29,6 @@ This project is a Python-based Threat Intelligence IOC (Indicator of Compromise)
 
 It also supports ingestion of threat feeds from JSON files and evaluates each IOC for enrichment.
 
-📂 Folder Structure:
----------------------
-threat_enricher/
-├── feeds/
-│   ├── internal.txt
-│   ├── misp_feed.json
-│   └── osint.csv
-├── input/
-│   └── iocs.json
-├── output/
-│   └── enriched_iocs.json
-├── rules/
-│   └── threat_rules.json
-├── logs/
-│   └── app.log
-├── src/
-│   ├── main.py
-│   ├── enrich.py
-│   ├── feeds_loader.py
-│   ├── logger.py
-│   └── utils.py
-├── tests/
-│   └── test_enrich.py
-│   └── test_feeds_loader.py
-│   └── test_main.py
-│   └── test_logger.py
-│   └── test_utils.py
-└── README.md
-
-
 🧠 Problem Statement:
 ----------------------
 Given a collection of threat IOCs and a set of rules/feeds:
