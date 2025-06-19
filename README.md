@@ -93,8 +93,8 @@ Given a collection of threat IOCs and a set of rules/feeds:
 4) Uses datetime in UTC format for reporting.
 
 📦 Requirements (requirements.txt):
-
-1) pip install pytest
-2) pip install pytest-cov
-3) pip install tzdata
+   ```bash
+    pip install pytest
+    pip install pytest-cov
+    pip install tzdata
     
