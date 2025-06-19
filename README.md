@@ -67,6 +67,7 @@ Given a collection of threat IOCs and a set of rules/feeds:
    pytest --cov=enrich --cov-report=html threat_detector/tests/
    pytest --cov=src tests/ --cov-report=html
 
+
 🧪 Testing:
 
   1)  All core logic (enrich.py) is covered by unittest cases.
@@ -82,6 +83,7 @@ Given a collection of threat IOCs and a set of rules/feeds:
         JSON error handling
         File not found and value error edge cases
 
+
 📝 Notes:
 
 1) The engine defaults unknown values gracefully (e.g., empty input or unmatched rules).
@@ -91,6 +93,7 @@ Given a collection of threat IOCs and a set of rules/feeds:
 3) If no known sources are found, confidence score defaults to a minimal value (e.g., 10).
 
 4) Uses datetime in UTC format for reporting.
+
 
 📦 Requirements (requirements.txt):
    ```bash
