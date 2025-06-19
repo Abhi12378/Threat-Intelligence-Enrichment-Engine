@@ -91,7 +91,8 @@ pytest --cov=src tests/ --cov-report=html
 4) Uses datetime in UTC format for reporting.
 
 📦 Requirements (requirements.txt):
-    pip install pytest
-    pip install pytest-cov
-    pip install tzdata
+
+1) pip install pytest
+2) pip install pytest-cov
+3) pip install tzdata
     
