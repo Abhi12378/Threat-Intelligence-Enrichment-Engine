@@ -60,11 +60,11 @@ Given a collection of threat IOCs and a set of rules/feeds:
 
 4. Run Tests:
    ```bash
-   pytest threat_enricher/tests/ -v
+   pytest threat_detector/tests/ -v
 
 5. Generate HTML Coverage Report:
    ```bash
-   pytest --cov=enrich --cov-report=html threat_enricher/tests/
+   pytest --cov=enrich --cov-report=html threat_detector/tests/
    pytest --cov=src tests/ --cov-report=html
 
 🧪 Testing:
